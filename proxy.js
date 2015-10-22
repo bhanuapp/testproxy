@@ -158,6 +158,23 @@ console.log(req.files);
       //});
   });
 
+  
+  //Sharepoint handling
+  
+  app.post("/signnow/document/fieldextract",function(req, res, next){
+   var file = req.body;
+    //var filename = req.files.file.name.replace(/\.[^/.]+$/, "");
+    console.log(file);
+      //fs.readFile(file.path, function(err, data){
+        /*fs.appendFile(file.path, file.body, function() {
+          if (err) throw err;
+          console.log('The "data to append" was appended to file!');
+        });*/
+      //});
+  });
+  
+  //sharepoint end
+  
   //Convert Postscript File to PDF and upload to CudaSign
   app.post("/signnow/document/fieldextract/ps", function(req, res, next){
     console.log("CONVERT & UPLOAD PS FILE =======================>");

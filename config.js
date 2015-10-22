@@ -13,7 +13,7 @@ config.folder.upload = "./uploads/";
 config.folder.output = "./output/";
 
 //cors
-config.cors.whitelist = ["localhost:3000","localhost:57826", "crm.dynamics.com", "netsuite.com","service-now.com","infusionsoft.com","localhost:44310"];
+config.cors.whitelist = ["localhost:3000","localhost:57826", "crm.dynamics.com", "netsuite.com","service-now.com","infusionsoft.com","sharepoint.com"];
 config.cors.options = {
   allowedHeaders: 'Content-Type, Accept, X-Requested-With, Authorization, Auth'
 };
