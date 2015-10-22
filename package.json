@@ -1,0 +1,29 @@
+{
+  "name": "CudaProxy",
+  "version": "0.1.0",
+  "description": "A simple proxy server using Node.js, Express and HTTP Proxy.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "dependencies": {
+    "cors": "^2.6.0",
+    "express": "~4.9.x",
+    "http-proxy": "^1.11.2",
+    "multer": "^0.1.8",
+    "request": "^2.56.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SignNowInc/SNIntegrationsProxy/"
+  },
+  "keywords": [
+    "node",
+    "proxy",
+    "express"
+  ],
+  "license": "MIT"
+}

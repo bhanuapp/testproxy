@@ -1,0 +1,7 @@
+{
+  "name": "snproxy",
+  "description": "A simple proxy server using Node.js, Express and HTTP Proxy.",
+  "repository": "https://github.com/mfitchett/snproxy",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "proxy"]
+}
